@@ -76,5 +76,5 @@ endf
 
 augroup lastplace_plugin
 	autocmd!
-	autocmd BufWinEnter * call s:lastplace()
+	autocmd BufEnter * call s:lastplace()
 augroup END
